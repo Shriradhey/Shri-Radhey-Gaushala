@@ -99,7 +99,7 @@ button{
 
 
 .homepage .buttons a{
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
     border: 1px solid #fff;
     color: #fff;
@@ -152,61 +152,44 @@ nav #icon{
 	display: none;
 }
 
-@media (max-width: 858px){
-	.checkbtn{
-		display: block;
-	}
-	nav #icon{
-		display: block;
-	}
-	ul{
-		position: fixed;
-		width: 100%;
-		height: 100vh;
-		background: #2c3e50;
-		top: 80px;
-		left: -100%;
-		text-align: center;
-		transition: all 0.5s;
-	}
+@media (max-width: 809px){
 	.menu ul li{
-		display: block;
-		margin: 50px;
-		line-height: 30px;
-	}
-	.menu ul li a{
-		font-size: 20px;
-	}
-	a:hover{
-		background: none;
-		color: #0082e6;
-	}
-
-	.buttons a{
-		display: block;
-		right: -100%;
-		margin: 5px;
-	}
-
-	.heading h1{
-		font-size: 30px;
-	}
-
-	.heading h1:hover{
-		font-size: 31px;
+		display: none;
 	}
 
 	.swa{
 		height: 300px;
+		margin-top: 310px;
 		width: auto;
 	}
 
 	.swamiji .swa:hover{
-		height: 350px;
+		height: 300px;
 		width: auto;
 	}
-
-	body:hover{
-		height: 101vh;
+    
+    .buttons{
+    	margin-top: 430px;
+    }
+	.buttons a{
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
 	}
+
+	.heading h1{
+		margin-top: 35px;
+		position: fixed;
+	}
+
+	.heading h1{
+		font-size: 24px;
+	}
+
+	.logo{
+		height: 110px;
+		width: auto;
+	}
+	
+
 }
