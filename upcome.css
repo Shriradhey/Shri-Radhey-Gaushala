@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color:  #ff471a;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.menu ul{
+    float: right;
+    margin-top: 0px;
+
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+/*  border: 1px solid black;*/
+}
+
+.logo{
+    height: 150px;
+    width: auto;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 809px){
+    .menu ul li{
+        display: none;
+    }
+
+    .swa{
+        height: 300px;
+        margin-top: 310px;
+        width: auto;
+    }
+
+    .swamiji .swa:hover{
+        height: 300px;
+        width: auto;
+    }
+    
+    .buttons{
+        margin-top: 430px;
+    }
+    .buttons a{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .heading h1{
+        margin-top: 85px;
+        text-align: center;
+        position: fixed;
+    }
+
+    .heading h1{
+        font-size: 24px;
+    }
+
+    .logo{
+        height: 110px;
+        width: auto;
+    }
+    
+    .heading h3{
+        margin-top: 300px;
+        text-align: center;
+        position: fixed;
+    }
+
+    .heading h3 a{
+        font-size: 20px;
+    }
+
+    h5{
+        margin-top: 600px;
+        text-align: center;
+        display: flex;
+    }
+
+}
+
+
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.6s ease;
+
+}
+
+.menu ul li a:hover{
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+}
+
+button{
+    background-color: lightyellow;
+    border: none;
+    float: right;
+    cursor: pointer;
+    height: 25px;
+    width: 100px;
+    margin-right: 10px;
+    font-size-adjust: cap-height;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-600%);
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 50px;
+}
+
+h3{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-600%);
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 30px;
+}
+
+h5{
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    transform: translate(-50%,-600%);
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+@media (max-width: 809px){
+    .menu ul li{
+        display: block;
+    }
+
+    .logo{
+        height: 110px;
+        width: auto;
+    }
+}
