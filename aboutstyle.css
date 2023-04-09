@@ -129,10 +129,12 @@ button{
 .car-11{
 	background-image: url('suraj.jpg');
 	border-radius: 15px;
-}.car-55{
-	background-image: url('hari.jpg');
-	border-radius: 15px;
 }
+
+/* .car-55{ */
+/* 	background-image: url('hari.jpg'); */
+/* 	border-radius: 15px; */
+/* } */
 
 .car-8{
 	background-image: url('subhash.jpg');
