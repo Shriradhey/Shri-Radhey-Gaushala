@@ -3,9 +3,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-/*	background-color:  #ff471a;*/
-	display: block ;
-	box-sizing: border-box;
+	background-color:  #ff471a;
 }
 
 body{
@@ -60,7 +58,7 @@ button{
 
 .container{
 	margin-top: 200px;
-	height: 100%;
+	height: 15000px;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
