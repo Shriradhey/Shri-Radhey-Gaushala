@@ -3,9 +3,9 @@
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	display: block;
+/*	background-color:  #ff471a;*/
+	display: block ;
 	box-sizing: border-box;
-/* 	background-color:  #ff471a; */
 }
 
 body{
@@ -118,21 +118,6 @@ button{
 
 .car-7{
 	background-image: url('rajender.jpg');
-	border-radius: 15px;
-}
-
-.car-10{
-	background-image: url('sandeep.jpg');
-	border-radius: 15px;
-}
-
-.car-11{
-	background-image: url('suraj.jpg');
-	border-radius: 15px;
-}
-
-.car-55{
-	background-image: url('hari.jpg');
 	border-radius: 15px;
 }
 
