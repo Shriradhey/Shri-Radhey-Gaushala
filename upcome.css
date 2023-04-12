@@ -14,6 +14,29 @@ body{
     margin-top: 0px;
 
 }
+
+table{
+    margin-top: 170px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+table tr td{
+    padding: 10px;
+}
+
+table tr td img{
+    height: 400px;
+    width: auto;
+    transition: 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+table tr td img:hover{
+    height: 420px;
+    width: auto;
+}
 .menu ul li{
     list-style-type: none;
     display: inline-block;
@@ -155,4 +178,28 @@ h5{
         height: 110px;
         width: auto;
     }
+}
+
+@media (max-width: 576px){
+    table{
+        margin-top: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+}
+table tr td{
+    padding: 10px;
+}
+
+table tr td img{
+    height: 200px;
+    width: auto;
+    transition: 0.5s ease;
+}
+
+table tr td img:hover{
+    height: 210px;
+    width: auto;
+}
 }
