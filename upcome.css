@@ -34,7 +34,7 @@ table tr td img{
 }
 
 table tr td img:hover{
-    height: 550px;
+    height: 420px;
     width: auto;
 }
 .menu ul li{
@@ -192,6 +192,13 @@ table tr td{
     padding: 10px;
 }
 
+.heading h1{
+    margin-top: -70px;
+}
+
+table{
+    margin-top: -70px;
+}
 table tr td img{
     height: 200px;
     width: auto;
