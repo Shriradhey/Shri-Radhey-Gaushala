@@ -1,0 +1,199 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+/*	background-color:  #ff471a;*/
+	display: block ;
+	zoom: reset;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #ff471a;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.menu ul{
+	float: right;
+	margin-top: 0px;
+
+}
+.menu ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px;
+/*	border: 1px solid black;*/
+}
+
+button{
+    background-color: lightyellow;
+    border: none;
+    float: right;
+    cursor: pointer;
+    height: 25px;
+    width: 100px;
+    margin-right: 10px;
+    font-size-adjust: cap-height;
+}
+
+.logo{
+	height: 150px;
+	width: auto;
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+	cursor: pointer;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.6s ease;
+
+}
+
+.menu ul li a:hover{
+	background-color: black;
+	color: #fff;
+	padding: 15px;
+}
+
+.container{
+	margin-top: 200px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card{
+	background: #ff471a;
+	width: 300px;
+	height: 590px;
+	margin: 15px;
+	border-radius: 15px;
+	background-size: auto;
+	align-items: center;
+	border: 1px solid #ff471a;
+/*	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-image{
+	background-color: aqua;
+	height: 150px;
+	margin-bottom: 15px;
+	height: 300px;
+}
+
+.car-1{
+	background-image: url('rdf.jpg');
+	border-radius: 15px;
+}
+
+.car-2{
+	background-image: url('premi.jpg');
+	border-radius: 15px;
+}
+
+.car-3{
+	background-image: url('ramshankar.jpg');
+	border-radius: 15px;
+}
+
+.car-4{
+	background-image: url('bhawna.jpg');
+	border-radius: 15px;
+}
+
+.car-5{
+	background-image: url('pawan.jpg');
+	border-radius: 15px;
+}
+
+.car-6{
+	background-image: url('manveer.jpg');
+	border-radius: 15px;
+}
+
+.car-7{
+	background-image: url('rajender.jpg');
+	border-radius: 15px;
+}
+
+.car-8{
+	background-image: url('subhash.jpg');
+	border-radius: 15px;
+}
+
+.car-9{
+	background-image: url('tilak.jpg');
+	border-radius: 15px;
+}
+
+.car-19{
+	background-image: url('suraj.jpg');
+	border-radius: 15px;
+}
+
+.car-29{
+	background-image: url('hari.jpg');
+	border-radius: 15px;
+}
+.card a{
+	text-decoration: none;
+	color: #fff;
+	background-color: black;
+	padding: 15px 20px;
+	display: block;
+	text-align: center;
+	margin: 20px 50px;
+}
+
+h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-600%);
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 50px;
+}
+
+.card:hover{
+	background-color: rgb(62, 62, 62);
+	color: white;
+	cursor: pointer;
+	transform: scale(1.03);
+	transition: all 1s ease;
+}
+
+.card p{
+	padding: 10px;
+}
+
+.card h2{
+	text-align: center;
+}
+
+.card p{
+	text-align: center;
+	font-family: calibiri;
+	font-size: 20px;
+}
+
+.card a:hover{
+	background-color: white;
+	color: black;
+}
+@media (max-width: 809px){
+	.menu ul li{
+		display: block;
+	}
+
+	.logo{
+		height: 110px;
+		width: auto;
+	}
+}

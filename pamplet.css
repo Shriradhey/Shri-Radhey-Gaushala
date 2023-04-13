@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-size: cover;
+	position: center;
+	overflow: hidden;
+	max-zoom: 500px;
+	zoom: reset;
+	color: #fff;
+}
+
+.data{
+	display: none;
+}
+
+body{
+	background-color: #ff471a;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+	height: 102.3vh;
+	width: 100;
+	background-position: center;
+	transition: 50s ease;
+}
+
+.menu ul{
+	float: right;
+	margin-top: 10px;
+
+}
+.menu ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px;
+/*	border: 1px solid black;*/
+}
+
+.logo{
+	height: 150px;
+	width: auto;
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+	cursor: pointer;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+table{
+/*	border: 1px solid #fff;*/
+	position: absolute;
+	font-size: 30px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 800px;
+}
+
+table ,tr:hover{
+	cursor: pointer;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));;
+}
+
+select{
+	display: flex;
+	width: 300px;
+	box-shadow: 0 15px 15px #efefef;
+	border: 2px solid #3f51b5;
+	height: 30px;
+	border: none;
+	appearance: none;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 16px;
+	color: #000;
+	margin-top: 20px;
+	font-weight: 700;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+select option{
+	color: #000;
+}
+
+table,tr .a{
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));;
+}
+
+table, tr, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+tr, td {
+  background-color: #fff04841;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.6s ease;
+
+}
+
+.menu ul li a:hover{
+	background-color: black;
+	color: #fff;
+	padding: 15px;
+}
+h2{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-500%);
+}
+
+@media (max-width: 809px){
+	.menu ul li{
+		display: block;
+	}
+
+	.logo{
+		height: 110px;
+		width: auto;
+	}
+	
+
+}

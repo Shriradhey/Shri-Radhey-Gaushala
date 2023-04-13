@@ -1,0 +1,206 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+/*	background-color: #ff471a;*/
+	background-size: cover;
+	position: center;
+	background-image: ;
+	overflow: hidden;
+	max-zoom: 500px;
+	zoom: reset;
+}
+
+body{
+	background-image: url('back.jpg');
+	height: 102.3vh;
+	width: 100;
+	background-position: center;
+	transition: 50s ease;
+}
+
+body:hover{
+	height: 150vh;
+	width: auto;
+}
+
+marquee{
+	font-size: 26px;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+	font-weight: 700;
+	color: violet;
+}
+
+.menu ul{
+	float: right;
+	margin-top: 0px;
+
+}
+.menu ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px;
+/*	border: 1px solid black;*/
+}
+
+.logo{
+	height: 150px;
+	width: auto;
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+	cursor: pointer;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+button{
+/*    background-color: lightyellow;*/
+    border: none;
+    float: right;
+    cursor: pointer;
+    height: 25px;
+    width: 100px;
+    margin-right: 10px;
+    font-size-adjust: cap-height;
+}
+
+.heading h1{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-size: 45px;
+	color: #fff700;
+	font-family: gabriola;
+	transition: 1s ease;
+}
+
+.heading h1:hover{
+/*	background-color: 2b7055;*/
+	font-size: 48px;
+	cursor: pointer;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.6s ease;
+
+}
+
+.menu ul li a:hover{
+	background-color: black;
+	color: #fff;
+	padding: 15px;
+}
+
+.homepage .buttons{
+	position: absolute;
+	top: 37%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 15px;
+
+}
+
+
+.homepage .buttons a{
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: 0.6s ease;
+}
+
+.homepage .buttons a:hover{
+	background-color: #ffffff;
+	color: black;
+}
+
+.swa{
+	height: 600px;
+	width: auto;
+/*	float: right;*/
+	margin-top: 150px;
+	position: absolute;
+	left: 5%;
+	top: 5%;
+	cursor: pointer;
+	display: block;
+	transition: 5s ease;
+	border: 0.2px solid #fff700;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.swamiji .swa:hover{
+	height: 650px;
+	width: auto;
+}
+
+audio{
+	float: right;
+	display: flex;
+}
+
+.counter{
+	float: left;
+	margin-top: 735px;
+}
+
+nav #icon{
+	color: white;
+	font-size: 30px;
+	float: right;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+@media (max-width: 809px){
+	body{
+		background-image: url('backmobile.jpg');
+	}
+	.menu ul li{
+		display: block;
+	}
+
+	.swa{
+		height: 300px;
+		margin-top: 280px;
+		width: auto;
+	}
+
+	.swamiji .swa:hover{
+		height: 300px;
+		width: auto;
+	}
+    
+    .buttons{
+    	margin-top: 390px;
+    }
+	.buttons a{
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+	}
+
+	.heading h1{
+		margin-top: 35px;
+		position: fixed;
+	}
+
+	.heading h1{
+		font-size: 24px;
+	}
+
+	.logo{
+		height: 110px;
+		width: auto;
+	}
+	
+
+}
