@@ -82,4 +82,7 @@ h1{
 		height: 110px;
 		width: auto;
 	}
+	table{
+		display: block;
+	}
 }
