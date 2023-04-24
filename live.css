@@ -37,3 +37,23 @@ marquee{
 	top: 2%;
 	font-weight: 600;
 }
+
+@media (max-width: 850px){
+	.video iframe{
+		width: 500px;
+		height: 290px;
+		position: absolute;
+		left: 1.8%;
+	}
+
+	.heading h1{
+		font-size: 30px;
+		text-align: center;
+	}
+
+	marquee{
+		font-size: 20px;
+	}
+
+
+}
