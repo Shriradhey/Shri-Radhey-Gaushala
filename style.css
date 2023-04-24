@@ -62,6 +62,7 @@ button{
     width: 100px;
     margin-right: 10px;
     font-size-adjust: cap-height;
+	margin: 20px;
 }
 
 .heading h1{
