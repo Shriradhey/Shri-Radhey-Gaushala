@@ -16,6 +16,14 @@ body{
 
 }
 
+table{
+	margin-top: 300px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+
 table tr td{
 	padding: 5px;
 }
@@ -81,8 +89,5 @@ h1{
 	.logo{
 		height: 110px;
 		width: auto;
-	}
-	table{
-		display: block;
 	}
 }
