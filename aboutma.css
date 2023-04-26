@@ -85,3 +85,25 @@ img:hover{
 	color: #fff;
 	padding: 15px;
 }
+
+@media (max-width: 850px){
+
+	menu ul li{
+		text-align: center;
+	}
+	*{
+		overflow: auto;}
+	section{
+		width: 470px;
+		height: auto;
+	}
+	img{
+		left: 10%;
+		transform: translate(-10%);
+	}
+
+	section a{
+		top: 100%;
+		left: 90%;
+	}
+}
