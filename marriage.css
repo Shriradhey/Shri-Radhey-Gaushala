@@ -60,3 +60,14 @@ a{
 a:hover{
   background-color: #0d824d;
 }
+
+@media (max-width: 850px){
+  table tr td{
+    font-size: 30px;
+  }
+
+  p{
+    font-size: 39px;
+    text-align: center;
+  }
+}
