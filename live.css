@@ -7,7 +7,7 @@
 a{
 	position: absolute;
 	left: 50%;
-	top: 93%;
+	top: 90%;
 	transform: translate(-50%,-50%);
 }
 
@@ -27,7 +27,7 @@ body{
 	height: 515px;
 	position: absolute;
 	left: 17%;
-	top: 30%;
+	top: 25%;
 	border: 10px solid yellow;
 }
 
@@ -45,7 +45,7 @@ div .video{
 }
 
 .sharethis-inline-follow-buttons{
-	margin-top: 900px;
+	margin-top: 870px;
 }
 	
 
