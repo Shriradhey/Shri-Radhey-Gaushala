@@ -44,6 +44,11 @@ div .video{
     inset 0px -11px 8px -10px black;
 }
 
+.sharethis-inline-follow-buttons{
+	margin-top: 900px;
+}
+	
+
 @media (max-width: 850px){
 	.video iframe{
 		width: 500px;
