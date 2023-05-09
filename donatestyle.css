@@ -7,7 +7,9 @@
     zoom: reset;
     font-weight: 300;
 }
-
+body{
+    backgorund-color: pink
+}
 .menu ul{
     float: right;
     margin-top: 0px;
