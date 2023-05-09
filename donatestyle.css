@@ -3,9 +3,9 @@
     padding: 0;
     font-family: sans-serif;
     color: #fff;
-    font-style: oblique;
-    background-color:  #ff471a;
+/*    background-color:  #ff471a;*/
     zoom: reset;
+    font-weight: 300;
 }
 
 .menu ul{
@@ -45,20 +45,6 @@ h1{
     padding: 15px;
 }
 
-p{
-/*    position: absolute;*/
-    margin-top: 125px;
-    font-size: 25px;
-    text-align: center;
-    transition: 10s ease;
-
-}
-
-p .ibnk{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-}
 
 button{
     background-color: lightyellow;
@@ -75,7 +61,7 @@ button{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+/*    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));*/
 }
 
 .menu ul{
@@ -100,7 +86,7 @@ button{
 }
 .menu ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #000;
     cursor: pointer;
     transition: 0.6s ease;
 
@@ -114,59 +100,99 @@ button{
 
 h1{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 62%;
+    left: 10%;
     transform: translate(-50%,-600%);
     font-family: sans-serif;
-    color: #fff;
+    color: #000;
+    font-size: 50px;
+}
+h2
+{
+    position: absolute;
+    top: 75%;
+    left: 16%;
+    transform: translate(-50%,-600%);
+    font-family: sans-serif;
+    color: #000;
+    font-weight: 800;
     font-size: 50px;
 }
 
-input{
-    background-color: #07b06c;
-    text-align: center;
-    margin-left: 500px;
-    height: 25px;
-    width: 280px;
-    margin-top: 10px;
-    border: none;
-    font-size: 23px;
-    place-content: none;
-    font-family: sans-serif;
-    box-shadow: 5px;
-    border-radius: 15px;
-    cursor: help;
-    text-justify: none;
-    mask-type: inherit;
+section p{
+    font-weight: 400;
+    color: #000;
+    font-weight: 600;
+    position: absolute;
+    top: 37%;
+    left: 2.8%;
 }
 
-input:hover{
-    height: 28px;
-    width: 290px;
-    font-size: ;
-    background-color: #16F5BD;
+#first{
+    height: 370px;
+    width: 100%;
+    background-color: pink;
 }
 
-.payby{
-    margin-left: 542px;
-    margin-top: 10px;
-    cursor: !important;
-/*    width: 280px;*/
+#second{
+    height: 370px;
+    width: 100%;
+    background-color: lightgreen;
 }
 
-.payby:hover{
-    height: 15px;
-    width: 250px;
+#second h3{
+    position: absolute;
+    left: 41%;
+    top: 45%;
+    color: #000;
+    font-size: 25px;
+    font-weight: 900;
+}
+#second form{
+    position: absolute;
+    left: 46%;
+    top: 50%;
 }
 
-input .reset{
-    cursor: progress;
+#second p{
+    position: absolute;
+    top: 60%;
 }
 
-p:select{
-    background-color: lightyellow;
-    color: black;
+#third{
+    height: 370px;
+    width: 100%;
+    background-color: darkorange;
 }
+
+#third h3{
+    position: absolute;
+    left: 24%;
+    font-weight: 900;
+    font-size: 25px;
+    color: #000;
+}
+
+#third table{
+    position: absolute;
+    left: 18%;
+    top: 90%;
+    font-size: 16px;
+}
+
+table tr td{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+
+
+
+
+
+
 
 @media (max-width: 809px){
     .menu ul li{
