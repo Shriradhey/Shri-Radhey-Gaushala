@@ -71,6 +71,21 @@ a.enroll{
   transition: all 0.6s ease;
 }
 
+a.online{
+  position: absolute;
+  left: 50%;
+  top: 73%;
+  transform: translate(-50%,-50%);
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: lightgreen;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.6s ease;
+}
+
+
 a:hover{
   background-color: darkgreen;
 }
