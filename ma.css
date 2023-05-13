@@ -83,10 +83,10 @@ iframe{
         display: block;
     }
 	iframe{
-		width: 450px;
+		width: 410px;
 		height: 4100px;
 		position: absolute;
-		left: 10px;
+		left: -10px;
 	}
 
    .pc{
