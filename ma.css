@@ -77,4 +77,19 @@ iframe{
 	iframe{
 		height: 3000px;
 		width: 400px;
+	}
+	  .menu ul li{
+        display: block;
+    }
+
+   .pc{
+        display: none;
+    }
+
+    .logo{
+        height: 110px;
+        width: auto;
+    }
 }
+
+@media (min-width: 1024px){ .mobile{ display: none; } }
