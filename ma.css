@@ -71,3 +71,10 @@ iframe{
 	top: 220px;
 
 }
+
+
+@media (max-width: 840px){
+	iframe{
+		height: 3000px;
+		width: 400px;
+}
