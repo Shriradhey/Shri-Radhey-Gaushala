@@ -85,6 +85,8 @@ iframe{
 	iframe{
 		width: 450px;
 		height: 4100px;
+		position: absolute;
+		left: 10px;
 	}
 
    .pc{
