@@ -28,9 +28,9 @@ table tr td a{
 }
 
 table{
-    margin-top: 170px;
+    margin-top: 100px;
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
