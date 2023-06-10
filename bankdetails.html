@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bank Data</title>
+	<link rel="stylesheet" type="text/css" href="bankdetails.css">
+</head>
+<body>
+  <button onclick="openBank()">Open</button>
+  <button onclick="closeBank()">Close</button>
+	<div class="popupnewwala" id="popupnewwala">
+    <img src="404-tick.png">
+<h3>You Can Also Pay in the Below Mentioned Bank Account</h3>
+    <div class="content">
+      <div id="bank" class="data">
+    <table border="3" style="font-size: 20px;background-color: #f1f1;">
+      <tr>
+        <td class="a">Bank Name:</td>
+        <td class="a">City Union Bank</td>
+      </tr>
+      <tr>
+        <td>Account Holder Name:</td>
+        <td>Shri Radhey Gau Shala Avem Shrimad Bhagwat Prachar Sewa Trust</td>
+      </tr>
+      <tr>
+        <td class="a">Account Number:</td>
+        <td class="a">510909010155226</td>
+      </tr>
+      <tr>
+        <td>IFSC Code:</td>
+        <td>CIUB0000676</td>
+      </tr>
+    </table>
+  </div>
+  <script type="text/javascript">
+    let popupnew = document.getElementById('bank');
+
+    function openBank(){
+      popupnew.classList.add("open-popupnewwala");
+    }
+
+    function closeBank(){
+      popupnew.classList.remove("open-popupnewwala");
+    }
+  </script>
+</body>
+</html>
