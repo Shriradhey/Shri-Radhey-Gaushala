@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Donate</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<button onclick="closePopup()">Cancel Online Payments</button>
+	<button onclick="closeBank()">Cancel Manual Payments</button>
+		<h1>Donate To Gau Shala</h1>
+	<div class="container">
+<ul class="list">
+	<li><a href="#" onclick="openBank()">Manual Donations&nbsp<i class="arrow down"></i></a></li>
+	<ul class="chec">
+		<!-- <li><p>Make Your Chqeue/DD payable to Shri Radhey Gau Shala Avem Shrimad Bhagwat Prachar Sewa Trust<p></li> -->
+	</ul>
+	<!-- <li><i class="arrow down">Pay Using Other Methods</li> -->
+	<a href="#"><li><i class="fa fa-qrcode"></i>&nbspDonate On QR Code&nbsp<i class="arrow down"></i></a>
+<ul>
+	<li><img src="qr.jpg"></li>
+	<li>EzE0106446@CUB</li>
+</ul>
+	</li>
+	<li><a href="#" onclick="openPopup()">Pay Using Other Method</a></li>
+</ul>
+</div>
+<div class="popup" id="popup">
+	<img src="404-tick.png">
+	<h2>Click on the button to make Donation using Credit Card/ Debit Card/ Wallets and Net banking</h2>
+	<form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_LoeHBwaSLtM9rh" async> </script></form>
+	</div>
+
+	<div class="popupnewwala" id="popupnewwala">
+<h3>You Can Also Pay in the Below Mentioned Bank Account</h3>
+    <div class="content">
+      <div id="bank" class="data">
+      	<p>Make Your Cheque/ DD payable to Shri Radhey Gau Shala Avem Shrimad Bhagwat Prachar Sewa Trust</p>
+      	<p>To get Tax Exemption under 12AC and 80G send your payment details to tax.rebate@shriradhey.info along with your personal information and PAN Number so that we can send you collection slip of donation.</p>
+      	<img src="404-tick.png">
+    <table border="3" style="font-size: 20px;background-color: #f1f1;">
+      <tr>
+        <td class="a">Bank Name:</td>
+        <td class="a">City Union Bank</td>
+      </tr>
+      <tr>
+        <td>Account Holder Name:</td>
+        <td>Shri Radhey Gau Shala Avem Shrimad Bhagwat Prachar Sewa Trust</td>
+      </tr>
+      <tr>
+        <td class="a">Account Number:</td>
+        <td class="a">510909010155226</td>
+      </tr>
+      <tr>
+        <td>IFSC Code:</td>
+        <td>CIUB0000676</td>
+      </tr>
+    </table>
+  </div>
+  <script type="text/javascript">
+    let popupnew = document.getElementById('bank');
+
+    function openBank(){
+      popupnew.classList.add("open-popupnewwala");
+    }
+
+    function closeBank(){
+      popupnew.classList.remove("open-popupnewwala");
+    }
+  </script>
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript">
+		let popup = document.getElementById('popup');
+
+		function openPopup(){
+			
+			popup.classList.add("open-popup");
+		}
+		function closePopup() {
+			popup.classList.remove("open-popup");
+		}
+	</script>
+</body>
+</html>

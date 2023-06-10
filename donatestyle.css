@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background: #f2e3fc;
+}
+
+h1{
+	margin-top: 10px;
+	left: 50%;
+	text-align: center;
+}
+
+
+div.container ul{
+	list-style-type: none;
+	text-align: center;
+	display: flex;
+	position: absolute;
+	margin-top: 50px;
+	left: 50%;
+	padding: 15px;
+	transform: translate(-50%);
+	margin-top: 30px;
+}
+
+div.container ul li a{
+	text-decoration: none;
+	color: #000;
+	height: 170px;
+	padding: 10px;
+	border: 1px solid #d1d1d1;
+}
+div.container ul li a:hover{
+ 	background-color: #fff;
+ 	color: #000;
+}
+
+div.container ul li ul{
+	display: none;
+	color: #fff;
+	text-align: center;
+}
+
+div.container ul li ul img{
+	width: 190px;
+	width: 190px;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 0px;
+	transform: translate(-50%);
+	display: block;
+	padding: 20px;
+}
+
+div.contaner ul li ul img:hover{
+	background-color: #fff;
+}
+
+div.container ul li:hover ul{
+	display: table-row-group;
+	color: #000;
+	text-align: center;
+	font-weight: 600;
+}
+
+div.container ul li ul{
+	display: none;
+}
+
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.popup{
+	width: 500px;
+	background-color: #fff;
+	border-radius: 6px;
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%,-50%) scale(0.1);
+	text-align: center;
+	padding: 0 30px 30px;
+	color: #333;
+	visibility: hidden;
+	transition: transform 0.6s, top 0.4s;
+}
+
+.popup img{
+	width: 100px;
+	margin-top: -50%;
+	border-radius: 50%;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2{
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 30px 0 10px;
+}
+
+.popup button{
+	width: 100%;
+	margin-top: 50px;
+	padding: 10px 0px;
+	background-color: #6fd649;
+	color: #fff;
+	border: 0;
+	outline: none;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+button{
+	cursor: pointer;
+	float: right;
+	width: 170px;
+	height: 28px;
+	border: none;
+	color: darkgreen;
+	border-radius: 15px;
+}
+
+table{
+	width: 900px;
+	font-weight: 600;
+	height: 400px;
+	position: absolute;
+	left: 90%;
+	transform: translate(-50%);
+}
+
+.open-popup{
+	visibility: visible;
+	top: 50%;
+	transform: translate(-50%,-50%) scale(1);
+}
+
+@media (max-width: 1198px){
+	ul li a{
+		display: block;
+	}
+}
+
+@media(max-width: 809px){
+	.popup{
+		width: 200px;
+		height: auto;
+	}
+}
+
+
+/*
+POPUP NEW WALA HAI YAHA PER
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+div.popupnewwala{
+	width: 600px;
+	background-color: #000;
+	border-radius: 6px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 15px;
+	transform: translate(-50%,-50%) scale(1);
+	padding: 0 30px 30px;
+	color: #333;
+	visibility: hidden;
+	transition: transform 0.6s, top 0.4s;
+}
+
+p{
+	font-weight: 600;
+	size: 18px;
+	text-align: center;
+}
+
+.popupnewwala img{
+	width: 100px;
+	left: 70%;
+	position: absolute;
+	top: -80%;
+	transform: translate(-10%,-60%);
+	border-radius: 50%;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup h3{
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 30px 0 10px;
+}
+
+.open-popupnewwala{
+	visibility: visible;
+	top: 50%;
+	transform: translate(-50%,-50%) scale(1);
+}
+
+
+@media (max-width: 809px){
+	div.popupnewwala{
+	width: 300px;
+	font-weight: 500;
+}
+
+.popupnewwala img{
+	width: 30px;
+	left: 70%;
+	position: absolute;
+	top: -80%;
+	transform: translate(-10%,-60%);
+	border-radius: 50%;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+table{
+	width: 400px;
+	height: auto;
+}
+ul li{
+	display: none;
+}
+}
