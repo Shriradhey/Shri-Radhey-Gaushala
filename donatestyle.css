@@ -139,18 +139,28 @@ button{
 
 table{
 	width: 900px;
+	top: 90%;
 	font-weight: 600;
 	height: 400px;
 	position: absolute;
 	left: 90%;
-	transform: translate(-50%);
+	transform: translate(-50%,20%);
 }
 
+
+div.content img{
+	position: absolute;
+	top: 50%;
+	left: 90%;
+	transform: translate(-50%,50%);
+}
 .open-popup{
 	visibility: visible;
 	top: 50%;
 	transform: translate(-50%,-50%) scale(1);
 }
+
+
 
 @media (max-width: 1198px){
 	ul li a{
