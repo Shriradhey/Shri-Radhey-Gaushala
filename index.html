@@ -16,7 +16,7 @@
 	<title>श्री राधे गौशाला एवं श्रीमद् भागवत प्रचार सेवा ट्रस्ट</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-	<a href="index.html"><img class="logo" src="logo.jpg" href="index.html"></a><br>
+	<a href="index.html"><img class="logo-img" src="logo.jpg" href="index.html"></a><br>
 <audio autoplay loop>
 	<source src="new.mp3" type="audio/mp3">
 </audio>
@@ -24,23 +24,29 @@
      crossorigin="anonymous"></script>
 </head>
 <body oncontextmenu="return false;" >
-	<div class="menu">
-		<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="members.html">Members</a></li>
-			<li><a href="mission.html">Our Mission</a></li>
-			<li><a href="vision.html">Our Vision</a></li>
-			<li><a href="gallery.html">Gallery</a></li>
-			<li><a href="donate.html">Donate</a></li>
-			<li><a href="contact.htmk">Contact Us</a></li>
-		</ul>
-<!-- 		<marquee behavior="scroll" direction="left">श्रीमद भागवत कथा 15 अप्रैल से चिल्ला DDA जनता फ्लैट्स में शुरू होने जा रही है। कथा का समय दोपहर 4 बजे से सायं 8 बजे तक रहेगा। </marquee> -->
-		<label id="icon">
-			<i class="fas fa-bars"></i>
-		</label>
-		</nav>
+		<div class="logo">
+		<img src="logo.jpg" class="logo-img">
 	</div>
+<div class="menu">
+	<ul class="menu-ul">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="members.html">Members</a></li>
+		<li><a href="mission.html">Our Mission</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="donate.html">Donate</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+</div>
+	<img src="link.png" class="link" id="link">
+</body>
+<script type="text/javascript">
+	const menuHamburger = document.querySelector(".link")
+	const NavLinks = document.querySelector(".menu")
+
+	menuHamburger.addEventListener('click', ()=>{
+		NavLinks.classList.toggle('mobile-menu')
+	})
+</script>
 	<div class="heading">
 		<h1>श्री राधे गौशाला एवं श्रीमद भागवत प्रचार सेवा ट्रस्ट</h1>
 	</div>
