@@ -125,11 +125,6 @@ div.card:hover{
 	font-family: sans-serif;
 }
 
-body{
-	background-image: url('back.jpg');
-	height: 100vh;
-}
-
 ul.menu-ul{
 	list-style-type: none;
 	float: right;
