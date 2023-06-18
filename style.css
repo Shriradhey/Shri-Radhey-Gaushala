@@ -2,126 +2,12 @@
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-/*	background-color: #ff471a;*/
-	background-size: cover;
-	position: center;
-	background-image: ;
-	overflow: hidden;
-	max-zoom: 500px;
-	zoom: reset;
 }
 
 body{
-	background-image: url('back.jpg');
-	height: 102.3vh;
-	width: 100;
-	background-position: center;
-	transition: 50s ease;
-}
-
-body:hover{
-	height: 150vh;
-	width: auto;
-}
-
-
-
-
-
-button{
-/*    background-color: lightyellow;*/
-    border: none;
-    float: right;
-    cursor: pointer;
-    height: 25px;
-    width: 100px;
-    margin-right: 10px;
-    font-size-adjust: cap-height;
-}
-
-.heading h1{
-	position: absolute;
-	top: 20%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	text-align: center;
-	font-size: 45px;
-	color: #fff700;
-	font-family: gabriola;
-	transition: 1s ease;
-}
-
-.heading h1:hover{
-/*	background-color: 2b7055;*/
-	font-size: 48px;
-	cursor: pointer;
-}
-
-
-.homepage .buttons{
-	position: absolute;
-	top: 37%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	padding: 15px;
-
-}
-
-
-.homepage .buttons a{
-    padding: 10px;
-    text-decoration: none;
-    border: 1px solid #fff;
-    color: #fff;
-    transition: 0.6s ease;
-}
-
-.homepage .buttons a:hover{
-	background-color: #ffffff;
-	color: black;
-}
-
-.swa{
-	height: 600px;
-	width: auto;
-/*	float: right;*/
-	margin-top: 150px;
-	position: absolute;
-	left: 5%;
-	top: 5%;
-	cursor: pointer;
-	display: block;
-	transition: 5s ease;
-	border: 0.2px solid #fff700;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-}
-
-.swamiji .swa:hover{
-	height: 650px;
-	width: auto;
-}
-
-audio{
-	float: right;
-	display: flex;
-}
-
-.counter{
-	float: left;
-	margin-top: 735px;
-}
-
-*{
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-}
-
-body{
-	background-image: url('back.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('back.jpg');
 	height: 100vh;
+	background-size: cover;
 }
 
 ul.menu-ul{
@@ -137,17 +23,23 @@ ul.menu-ul li{
 
 ul.menu-ul li a{
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 	padding: 10px;
 	transition: 0.6s ease;
 }
 
+ul.menu-ul li a.active{
+	color: red;
+	font-weight: 600;
+	background-color: #fff;
+}
+
 ul.menu-ul li a:hover{
-	background-color: #000;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 }
 img.link{
-	width: 30px;
+	width: 50px;
 	position: absolute;
 	top: 50px;
 	right: 50px;
@@ -158,6 +50,44 @@ img.link{
 .menu.mobile-menu{
 	margin-left: 0;
 }
+
+
+div.title h1{
+	font-weight: 600;
+	font-size: 36px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: yellow;
+	text-align: center;
+}
+
+
+div.buttons {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-050%);
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+
+div.buttons a{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px;
+	transition: all 0.6s ease;
+}
+
+div.buttons a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+
 
 div.logo img.logo-img{
 	height: 170px;
@@ -195,6 +125,10 @@ div.logo img.logo-img{
 
 	}
 
+	.close-h1{
+		display: none;
+	}
+
 	ul.menu-ul{
 		display: flex;
 		flex-direction: column;
@@ -207,48 +141,15 @@ div.logo img.logo-img{
 		font-weight: 600;
 	}
 
-}
-
-
-@media (max-width: 809px){
-	body{
-		background-image: url('backmobile.jpg');
-	}
-	
-
-	.swa{
-		height: 300px;
-		margin-top: 280px;
-		width: auto;
+	div.buttons{
+		position: absolute;
+		top: 80%;
+		left: 50%;
+		transform: translate(-50%,-80%);
 	}
 
-	.swamiji .swa:hover{
-		height: 300px;
-		width: auto;
+	div.buttons a{
+		display: block;
 	}
-    
-    .buttons{
-    	margin-top: 390px;
-    }
-	.buttons a{
-		display: flex;
-		justify-content: flex-end;
-		align-items: flex-end;
-	}
-
-	.heading h1{
-		margin-top: 35px;
-		position: fixed;
-	}
-
-	.heading h1{
-		font-size: 24px;
-	}
-
-	.logo{
-		height: 110px;
-		width: auto;
-	}
-	
 
 }
