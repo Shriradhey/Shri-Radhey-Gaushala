@@ -1,13 +1,16 @@
+
 <!DOCTYPE html>
+
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Members: Shri Radhey Gau Shala Avem Shrimad Bhagwat Prachar Sewa Trust</title>
 	<link rel="stylesheet" type="text/css" href="aboutstylestyle.css">
+	<button onclick="scrollToBottom()" class="bottom">Menu</button>    
+
 </head>
 <body>
-
 	<div class="area">
 		<h1>Governing Bodies and Members</h1>
 		<div class="allback">
@@ -47,12 +50,6 @@
 				<img src="6.jpg">
 				<h2>Chetan Verma</h2>
 				<p>Legal Consultant</p>
-				<!-- <p>ANY BIO</p> -->
-			</div>
-				<div class="card">
-				<img src="16.jpg">
-				<h2>Amit Kumar</h2>
-				<p>Member</p>
 				<!-- <p>ANY BIO</p> -->
 			</div>
 			<div class="card">
@@ -106,6 +103,12 @@
 			<div class="card">
 				<img src="15.jpg">
 				<h2>Rajender Kumar</h2>
+				<p>Member</p>
+				<!-- <p>ANY BIO</p> -->
+			</div>
+			<div class="card">
+				<img src="16.jpg">
+				<h2>Amit Kumar</h2>
 				<p>Member</p>
 				<!-- <p>ANY BIO</p> -->
 			</div>
@@ -166,5 +169,35 @@
 	    </div>
 			</div>
 	</div>
+		<div class="logo">
+		<img src="logo.jpg" class="logo-img">
+	</div>
+<div class="menu">
+	<ul class="menu-ul">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="members.html" class="active">Members</a></li>
+		<li><a href="mission.html">Our Mission</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="donate.html">Donate</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+</div>
+	<img src="menu.jpg" class="link" id="link">
+</body>
+<script type="text/javascript">
+	const menuHamburger = document.querySelector(".link")
+	const NavLinks = document.querySelector(".menu")
+
+	menuHamburger.addEventListener('click', ()=>{
+		NavLinks.classList.toggle('mobile-menu')
+	})
+</script>
+<script>
+function scrollToBottom()
+{
+    var height = document.body.scrollHeight;
+    window.scroll(0 , height);
+}
+</script>
 </body>
 </html>
