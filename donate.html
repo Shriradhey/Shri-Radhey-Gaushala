@@ -1,90 +1,96 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Donate</title>
-	<link rel="stylesheet" type="text/css" href="donatestyle.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-	<button onclick="closePopup()">Cancel Online Payments</button>
-	<button onclick="closeBank()">Cancel Manual Payments</button>
-		<h1>Donate To Gau Shala</h1>
-	<div class="container">
-<ul class="list">
-	<li><a href="#" onclick="openBank()">Manual Donations&nbsp<i class="arrow down"></i></a></li>
-	<ul class="chec">
-		<!-- <li><p>Make Your Chqeue/DD payable to Shri Radhey Gau Shala Avem Shrimad Bhagwat Prachar Sewa Trust<p></li> -->
+<div class="menu">
+	<ul class="menu-ul">
+        <div class="logo">
+            <img src="logo.jpg" class="logo-img">
+        </div>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="members.html">Members</a></li>
+		<li><a href="mission.html">Our Mission</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="donate.html" class="active">Donate</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
 	</ul>
-	<!-- <li><i class="arrow down">Pay Using Other Methods</li> -->
-	<a href="#"><li><i class="fa fa-qrcode"></i>&nbspDonate On QR Code&nbsp<i class="arrow down"></i></a>
-<ul>
-	<li><img src="qr.jpg"></li>
-	<li>EzE0106446@CUB</li>
-</ul>
-	</li>
-	<li><a href="#" onclick="openPopup()">Pay Using Other Method</a></li>
-</ul>
 </div>
-<div class="popup" id="popup">
-	<img src="404-tick.png">
-	<h2>Click on the button to make Donation using Credit Card/ Debit Card/ Wallets and Net banking</h2>
-	<form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_LoeHBwaSLtM9rh" async> </script></form>
-	</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link rel="stylesheet" href="donatestyle.css">
+</head>
 
-	<div class="popupnewwala" id="popupnewwala">
-<h3>You Can Also Pay in the Below Mentioned Bank Account</h3>
-    <div class="content">
-      <div id="bank" class="data">
-<!--       	<p>Make Your Cheque/ DD payable to Shri Radhey Gau Shala Avem Shrimad Bhagwat Prachar Sewa Trust</p> -->
-<!--       	<p>To get Tax Exemption under 12AC and 80G send your payment details to tax.rebate@shriradhey.info along with your personal information and PAN Number so that we can send you collection slip of donation.</p> -->
-      	<img src="404-tick.png">
-    <table border="3" style="font-size: 20px;background-color: #f1f1;">
-      <tr>
-        <td class="a">Bank Name:</td>
-        <td class="a">City Union Bank</td>
-      </tr>
-      <tr>
-        <td>Account Holder Name:</td>
-        <td>Shri Radhey Gau Shala Avem Shrimad Bhagwat Prachar Sewa Trust</td>
-      </tr>
-      <tr>
-        <td class="a">Account Number:</td>
-        <td class="a">510909010155226</td>
-      </tr>
-      <tr>
-        <td>IFSC Code:</td>
-        <td>CIUB0000676</td>
-      </tr>
-    </table>
-  </div>
-  <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-<stripe-pricing-table pricing-table-id="prctbl_1NHPJdSAZKdPJk7dttLsxYp0"
-publishable-key="pk_live_51NH2jMSAZKdPJk7dkhtLcI96aVCl8XDae9YjMDVuUDB7Weh966iJBX5BoNJjxo6UfIPGdcTL6Lcjcu6GLcVXll3Q00PHYeJtAS">
-</stripe-pricing-table>
-  <script type="text/javascript">
-    let popupnew = document.getElementById('bank');
+<img src="menu.jpg" class="link" id="link">
+<body>
+    <h1>Donate to Gau Shala</h1>
+    <div class="main">
+        <div class="left">
+            <div class="bankdata">
+                <table>
+                    <tr>
+                        <td>Bank Name</td>
+                        <td>:&nbsp;&nbsp;</td>
+                        <td>City Union Bank</td>
+                    </tr>
+                    <tr>
+                        <td>Account Holder</td>
+                        <td>:&nbsp;&nbsp;</td>
+                        <td>Shri Radhey Gau Shala Avem Shrimad Bhagwat Prachar Sewa Trust</td>
+                    </tr>
+                    <tr>
+                        <td>Account Number</td>
+                        <td>:&nbsp;&nbsp;</td>
+                        <td>510909010155226</td>
+                    </tr>
+                    <tr>
+                        <td>IFSC Code</td>
+                        <td>:&nbsp;&nbsp;</td>
+                        <td>CIUB0000676</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="right">
+            <div class="qr">
+                <img src="qr.jpg" alt="Donate on QR Code">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <section class="exemption">
+        <div class="leftpara">
+            <h2>YOUR DONATIONS ARE EXTREMELY VALUABLE FOR US</h2>
+        </div>
+        <div class="rightpara">
+            <div class="text">
+            <p>The Donations made to Shri Radhey Gau Shala Avem Shrimad Bhagwat Prachar Sewa Trust are eligible to avail tax exemption under Income Tax Department of India Section 12A 80G</p>
+            <p>Make your Cheque/DD payable to Shri Radhey Gau Shala Avem Shrimad Bhagwat Prachar Sewa Trust</p>
+        </div>
+        <div class="btn">
+            <a href="challan.pdf"><img src="btn.jpg" alt="Generate Challan"></a>
+        </div>
+        </div>
+    </section>
 
-    function openBank(){
-      popupnew.classList.add("open-popupnewwala");
-    }
-
-    function closeBank(){
-      popupnew.classList.remove("open-popupnewwala");
-    }
-  </script>
-
-	<script type="text/javascript">
-		let popup = document.getElementById('popup');
-
-		function openPopup(){
-			
-			popup.classList.add("open-popup");
-		}
-		function closePopup() {
-			popup.classList.remove("open-popup");
-		}
-	</script>
+    <hr>
+    <section class="query">
+        <h3>Have any Donation Related Query? Send Us A Message </h3>
+        <div class="form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter E-Mail">
+            <input type="mobile" placeholder="Enter Mobile Number">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Elaborate Your Issue..."></textarea>
+            <button class="submit">Send Query</button>
+        </div>
+    </section>
+    <script type="text/javascript">
+        const menuHamburger = document.querySelector(".link")
+        const NavLinks = document.querySelector(".menu")
+    
+        menuHamburger.addEventListener('click', ()=>{
+            NavLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    <footer><p>Shri Radhey Gau Shala Avem Shrimad Bhagwat Prachar Sewa Trust(Regd.), Delhi, India</p></footer>
 </body>
 </html>
